@@ -3,16 +3,16 @@ from datetime import timedelta, datetime
 from fastapi.security import OAuth2PasswordBearer
 from fastapi import Depends, status, HTTPException
 
-#from .config import settings
+from . import config
 
 # SECRET KEY
 # ALGORITHM
 # EXPIRATION TIME
 
 # openssl rand -hex 32
-SECRET_KEY = "xx"
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 10
+SECRET_KEY = config.secret_key
+ALGORITHM = config.algorithm
+ACCESS_TOKEN_EXPIRE_MINUTES = config.access_token_expire_minutes
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
