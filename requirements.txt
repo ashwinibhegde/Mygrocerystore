@@ -3,7 +3,7 @@ anyio==4.3.0
 bcrypt==4.1.2
 black==24.2.0
 certifi==2024.2.2
-cffi==1.16.0
+cffi
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
@@ -13,7 +13,7 @@ ecdsa==0.18.0
 email_validator==2.1.1
 exceptiongroup==1.2.0
 fastapi==0.110.0
-greenlet==3.0.3
+greenlet
 h11==0.14.0
 idna==3.6
 mypy-extensions==1.0.0
@@ -25,7 +25,7 @@ pyasn1==0.5.1
 pycparser==2.21
 pydantic==2.3.0
 pydantic-settings==2.2.1
-pydantic_core==2.6.3
+pydantic_core
 python-dotenv==1.0.1
 python-jose==3.3.0
 python-multipart==0.0.9
